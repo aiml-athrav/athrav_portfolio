@@ -395,8 +395,8 @@ section {
     }
 
     .logo {
-        font-size: 1.2rem;
-        padding: 20px 0 10px 0;
+        font-size: 1.3rem;
+        padding: 15px 0 5px 0;
         margin: 0;
         position: relative;
         width: 100%;
@@ -410,33 +410,31 @@ section {
         left: 20%;
         width: 60%;
         height: 1px;
-        background: rgba(255, 255, 255, 0.2); /* Minor line below logo */
+        background: rgba(255, 255, 255, 0.1); /* Even more subtle */
     }
 
     nav {
         position: relative;
         width: 100%;
         height: auto;
-        background: transparent;
-        backdrop-filter: none;
-        border: none;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        gap: 30px;
-        padding-top: 30px;
+        gap: 12px; /* Tight gap */
+        padding-top: 15px; /* Minimal gap after line */
     }
 
     nav a {
-        font-size: 0.6rem;
-        gap: 4px;
-        padding: 5px 0;
+        font-size: 0.55rem;
+        gap: 3px;
+        padding: 8px 0;
+        width: 100%;
     }
 
     nav a i {
         display: block !important;
-        font-size: 1.1rem;
+        font-size: 1.3rem; /* Slightly larger for better tap target */
     }
 
     .section-highlight {
