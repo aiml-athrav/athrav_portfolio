@@ -362,14 +362,21 @@ section {
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 8.5vw; /* Fluid font size based on screen width */
+        font-size: 7.5vw; /* Slightly smaller to be safe */
         letter-spacing: 0px;
-        white-space: nowrap;
     }
     
     .name-line {
         display: block;
-        line-height: 1.2;
+        white-space: nowrap !important; /* Forces one line no matter what */
+        width: 100%;
+        line-height: 1.1;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 5px;
     }
 
     .hero h2 {
