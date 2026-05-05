@@ -362,8 +362,9 @@ section {
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2rem; /* Reduced from 2.8rem to fit the name */
-        letter-spacing: 1px;
+        font-size: 8.5vw; /* Fluid font size based on screen width */
+        letter-spacing: 0px;
+        white-space: nowrap;
     }
     
     .name-line {
