@@ -209,3 +209,30 @@ function setupModal(modalId, btnId, closeClass) {
 
 setupModal("cert-modal", "open-cert-modal", "close-modal");
 setupModal("ach-modal", "open-ach-modal", "close-modal-ach");
+
+// Mobile Menu Toggle
+const menuBtn = document.getElementById('menu-btn');
+const navMenu = document.getElementById('nav-menu');
+const navLinks = document.querySelectorAll('nav a');
+
+if (menuBtn && navMenu) {
+    menuBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        // Toggle icon between bars and times
+        const icon = menuBtn.querySelector('i');
+        icon.classList.toggle('fa-bars');
+        icon.classList.toggle('fa-xmark');
+    });
+}
+
+// Close menu when a link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (navMenu) {
+            navMenu.classList.remove('active');
+            const icon = menuBtn.querySelector('i');
+            icon.classList.add('fa-bars');
+            icon.classList.remove('fa-xmark');
+        }
+    });
+});
