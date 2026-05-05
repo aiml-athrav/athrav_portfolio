@@ -1,51 +1,39 @@
 # 🚀 Athrav Khandelwal | 3D Animated Portfolio
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status">
+  <a href="https://athrav-portfolio.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-View_Website-brightgreen?style=for-the-badge&logo=render" alt="Live Demo">
+  </a>
+  <img src="https://img.shields.io/badge/Status-Active-blue?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Role-AI_&_ML_Engineer-orange?style=for-the-badge" alt="Role">
-  <img src="https://img.shields.io/badge/Tech-Three.js-blueviolet?style=for-the-badge" alt="Tech">
 </p>
 
-## 🌟 Overview
-Welcome to my professional 3D portfolio. This project showcases my journey as a B-Tech student specializing in Artificial Intelligence and Machine Learning, featuring a high-end interactive user interface built with modern web technologies.
+## 🌐 Live Website
+Check out my interactive 3D portfolio here: **[athrav-portfolio.onrender.com](https://athrav-portfolio.onrender.com)**
 
 ---
 
-## ✨ Key Features
-- **🌌 3D Interactive Background**: Built with **Three.js**, featuring a dynamic particle field that responds to mouse movement.
-- **💎 Glassmorphism UI**: Modern, sleek design with semi-transparent elements and real-time blur.
-- **📱 Fully Responsive**: Optimized for all devices, from high-res monitors to mobile screens.
-- **📂 The Vault**: Interactive modal-based sections for Certificates and Achievements.
-- **⚡ Smooth Animations**: Powered by **GSAP** (GreenSock Animation Platform) for high-performance scroll and entrance effects.
+## 🌟 Overview
+This is a high-end, 3D animated professional portfolio built for Athrav Khandelwal. It features a deep-space particle background, glassmorphism UI, and interactive modals for showcasing skills, education, and achievements.
+
+### ✨ Key Features
+- **🌌 3D Particle Universe**: Interactive background built with **Three.js**.
+- **📱 Mobile App Experience**: Custom hamburger menu and modal navigation for mobile users.
+- **📂 The Vault**: Secure-looking sections for Certificates and Achievements.
+- **⚡ GSAP Animations**: Ultra-smooth scroll reveals and letter animations.
+- **💎 Glassmorphic Design**: Modern transparent UI with real-time background blur.
 
 ---
 
 ## 🛠️ Tech Stack
-| Category | Technologies |
-| :--- | :--- |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
-| **Animation** | Three.js, GSAP, ScrollTrigger |
-| **Styling** | Vanilla CSS, Glassmorphism, 3D Perspective |
-| **Hosting** | Render / GitHub Pages |
+- **Engine**: Three.js (WebGL)
+- **Animation**: GSAP (GreenSock)
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Hosting**: Render.com
 
 ---
 
-## 📸 Preview
-> **Note**: Open `index.html` in your browser to experience the 3D effects live!
-
----
-
-## 🚀 Quick Start
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/aiml-athrav/athrav_portfolio.git
-   ```
-2. **Open the project**:
-   Simply open `index.html` in any modern web browser.
-
----
-
-## 📬 Connect With Me
+## 📬 Contact & Socials
 <p align="left">
   <a href="https://www.linkedin.com/in/athravkhandelwal1230" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -66,5 +54,5 @@ Welcome to my professional 3D portfolio. This project showcases my journey as a 
 
 ---
 <p align="center">
-  Built with ❤️ by Athrav Khandelwal
+  Built with passion by <b>Athrav Khandelwal</b>
 </p>
