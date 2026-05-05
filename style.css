@@ -362,15 +362,16 @@ section {
 /* Responsive */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 7.5vw; /* Slightly smaller to be safe */
+        font-size: 7vw; /* More conservative size */
         letter-spacing: 0px;
     }
     
     .name-line {
-        display: block;
-        white-space: nowrap !important; /* Forces one line no matter what */
+        display: flex; /* Force letters to stay together */
+        justify-content: center;
+        white-space: nowrap !important;
         width: 100%;
-        line-height: 1.1;
+        line-height: 1;
     }
 
     .hero-content {

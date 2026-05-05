@@ -1,7 +1,7 @@
 // Wrap Name Letters for Animation
 const nameLines = document.querySelectorAll('.name-line');
 nameLines.forEach(line => {
-    const text = line.innerText;
+    const text = line.textContent.trim(); // Using trim() to remove hidden spaces
     line.innerHTML = text.split('').map(char => 
         char === ' ' ? ' ' : `<span>${char}</span>`
     ).join('');
